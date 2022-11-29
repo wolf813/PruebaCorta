@@ -33,6 +33,15 @@ export class Seleccion extends Entity {
   })
   idcandidato: string;
 
+  @property({
+    type: 'string',
+  })
+  empleadosrrhhId?: string;
+
+  @property({
+    type: 'number',
+  })
+  plazaId?: number;
 
   constructor(data?: Partial<Seleccion>) {
     super(data);

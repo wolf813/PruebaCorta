@@ -3,3 +3,8 @@ export * from './empleado-hhrr.controller';
 export * from './candidato.controller';
 export * from './plazas.controller';
 export * from './seleccion.controller';
+export * from './empleadosrrhh-candidato.controller';
+export * from './empleadosrrhh-plaza.controller';
+export * from './empleadosrrhh-seleccion.controller';
+export * from './candidato-plaza.controller';
+export * from './plaza-seleccion.controller';
